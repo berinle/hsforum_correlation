@@ -16,7 +16,7 @@ task init << {
 }
 
 task wrapper(type: Wrapper){
-    gradleVersion = '0.9-rc-3'
+    gradleVersion = '0.9'
 }
 
 //First way

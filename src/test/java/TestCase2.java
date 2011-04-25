@@ -152,6 +152,6 @@ public class TestCase2 {
 
     @AfterTest
     public void after(){
-        fts.getTransaction().commit();
+//        fts.getTransaction().commit();
     }
 }
