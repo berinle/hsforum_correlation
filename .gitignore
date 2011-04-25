@@ -1,0 +1,4 @@
+.gradle/
+target/
+out/
+*.i*
