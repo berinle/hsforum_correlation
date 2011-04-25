@@ -44,3 +44,9 @@ dependencies {
     groovy 'org.codehaus.groovy:groovy:1.7.7'
     runtime 'commons-cli:commons-cli:1.2'
 }
+
+task testngTest(type: Test) {
+        useTestNG()
+}
+
+check.dependsOn testngTest
